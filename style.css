@@ -3,8 +3,146 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .flex{
     display: flex;
 }
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/*header*/
+
+header{
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+header a{
+    margin: 15px;
+}
+
+header img{
+    padding: 10px;
+}
+
+#inizia{
+    padding: 5px 10px;
+    color: white;
+    background-color: #006bff;
+}
+/*/header*/
+
+/*main*/
+
+/*prima card section*/
+
+main section:first-of-type{
+    background-color: #b4d3ff;
+}
+
+.start{
+    width: 1000px;
+    height: 615px;
+    margin: 0 400px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.start h1{
+    margin: 70px 0;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+
+
+.textbox{
+    width: 300px;
+    height: 200px;
+    text-align: left;
+}
+
+.textbox a{
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #006bff;
+}
+
+.textbox p{
+    margin-top: 20px;
+}
+
+.jumbo{
+    width: 700px;
+    height: 500px;
+}
+
+.jumbo img{
+    width: 100%;
+}
+/*/prima card section*/
+
+/*seconda card section*/
+
+.card-option{
+    margin-top: 120px;
+}
+
+.option{
+    width: 1000px;
+    margin: 0 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.option div:first-child{
+    margin: 20px;
+}
+
+.option h1{
+    margin: 40px 0;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.option input[type="radio"] + label span{
+    
+    
+    cursor: pointer;
+}
+
+.option span{
+    margin: 15px;
+}
+
+.card{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row;
+    border: none;
+}
+
+.cards{
+    width: 200px;
+    height: 600px;
+    margin: 20px;
+    border: 1px solid grey;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    word-spacing: 5px;
+}
+
+.cards span{
+   
+}
+/*/seconda card section*/
+/*/main*/

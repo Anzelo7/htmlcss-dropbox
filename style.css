@@ -244,7 +244,7 @@ header img{
 /*Todo section*/
 
 .Todo{
-    margin: 130px 300px;
+    margin: 130px 300px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;

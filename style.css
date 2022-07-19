@@ -41,7 +41,7 @@ header img{
 
 /*main*/
 
-/*prima card section*/
+/*card-start section*/
 
 main section:first-of-type{
     background-color: #b4d3ff;
@@ -50,7 +50,7 @@ main section:first-of-type{
 .start{
     width: 1000px;
     height: 615px;
-    margin: 0 400px;
+    margin: 0 300px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -88,9 +88,9 @@ main section:first-of-type{
 .jumbo img{
     width: 100%;
 }
-/*/prima card section*/
+/*/card-start section*/
 
-/*seconda card section*/
+/*card-option section*/
 
 .card-option{
     margin-top: 120px;
@@ -98,12 +98,12 @@ main section:first-of-type{
 
 .option{
     width: 1000px;
-    margin: 0 400px;
+    margin: 0 300px;
     display: flex;
     flex-direction: column;
 }
 
-.option + div{
+.option div:first-of-type{
     margin: 20px;
 }
 
@@ -163,5 +163,86 @@ main section:first-of-type{
     align-items: flex-end;
     margin-top: 10px;
 }
-/*/seconda card section*/
+
+.partner{
+    width: 982px;
+    margin: 130px 300px;
+    justify-content: center;
+}
+
+.partner-img{
+    width: 700px;
+    height: 500px;
+}
+
+.partner img{
+    width: 700px;
+    height: 500px;
+}
+
+.partner div:last-of-type{
+    padding: 5%;
+    text-align: left;
+}
+
+.partner h2{
+    font-weight: 600;
+}
+
+.partner span{
+    padding: 3%;
+    border: 1px solid black;
+}
+/*/card-option section*/
+
+/*Todo section*/
+
+.Todo{
+    width: 982px;
+    margin: 130px 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Todo h2{
+    font-weight: 600;
+    text-align: center;
+}
+
+.Todo-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Todo-card{
+    width: 300px;
+    height: 400px;
+}
+
+.Todo-card img{
+    width: 100%;
+}
+
+#find-client{
+    width: 982px;
+    margin: 130px 0;
+}
+
+#find-client h1{
+    font-weight: 600;
+    margin-right: 400px;
+}
+
+#find-client a{
+    color: blue;
+    line-height: 7rem;
+    text-decoration: underline;
+}
+/*/ Todo section*/
+
+/*feedback section*/
+
+
+/*/feedback section*/
 /*/main*/

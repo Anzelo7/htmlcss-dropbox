@@ -121,10 +121,10 @@ header img{
 
 .cards{
     width: 300px;
-    height: 600px;
+    height: 1000px;
     margin: 20px;
     border: 1px solid grey;
-    display: inline-block
+    display: inline-block;
 }
 
 .cards .span i,
@@ -135,6 +135,64 @@ header img{
 .cards .span{
    text-align: center;
    margin-top: 10px;
+}
+
+.business-plan{
+    padding: 10px;
+}
+
+.business-plan hr{
+    margin-left: 15px;
+    width: 50px;
+}
+
+.business-plan h4{
+    line-height: 4rem;
+}
+
+.icon{
+    position: absolute;
+    width: 20px;
+}
+
+.paragraph{
+    width: 210px;
+    position: relative;
+    left: 25px;
+}
+
+.freetest{
+    padding: 10px 20px;
+    margin-left: 15px;
+    color: white;
+    background-color: #006bff;
+    line-height: 6rem;
+}
+
+#freetest{
+    margin-right: 15px;
+    padding: 10px 80px;
+    color: white;
+    background-color: #006bff;
+    line-height: 3rem;
+}
+
+.buylink{
+    margin: 30px 15px;
+}
+
+#buylink{
+    margin-top: 60px;
+}
+
+.buylink a{
+    color: blue;
+    text-decoration: underline;
+}
+
+#buylink a{
+    color: blue;
+    text-decoration: underline;
 }
 
 .cards-down{
@@ -149,6 +207,10 @@ header img{
     justify-content: center;
     align-items: flex-end;
     margin-top: 10px;
+}
+
+.enterprise{
+    display: flex;
 }
 
 .partner{

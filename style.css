@@ -252,7 +252,6 @@ header img{
 
 .Todo h2{
     font-weight: 600;
-    text-align: center;
 }
 
 .Todo-cards{
@@ -261,8 +260,8 @@ header img{
 }
 
 .Todo-card{
-    width: 300px;
-    height: 400px;
+    width: 280px;
+    margin: 13px;
 }
 
 .Todo-card img{

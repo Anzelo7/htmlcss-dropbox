@@ -43,12 +43,11 @@ header img{
 
 /*card-start section*/
 
-main section:first-of-type{
+.card-start{
     background-color: #b4d3ff;
 }
 
 .start{
-    width: 1000px;
     height: 615px;
     margin: 0 300px;
     flex-wrap: wrap;
@@ -60,8 +59,6 @@ main section:first-of-type{
     font-weight: 900;
     font-size: 60px;
 }
-
-
 
 .textbox{
     width: 300px;
@@ -97,30 +94,21 @@ main section:first-of-type{
 }
 
 .option{
-    width: 1000px;
     margin: 0 300px;
     display: flex;
     flex-direction: column;
 }
 
-.option div:first-of-type{
-    margin: 20px;
-}
-
 .option h1{
     margin: 40px 0;
     font-weight: 900;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .option input[type="radio"] + label span{
     
     
     cursor: pointer;
-}
-
-.option + span{
-    margin: 15px;
 }
 
 .card{
@@ -150,7 +138,6 @@ main section:first-of-type{
 }
 
 .cards-down{
-    width: 982px;
     height: 150px;
     margin: 20px;
     margin-left: 0;
@@ -165,7 +152,6 @@ main section:first-of-type{
 }
 
 .partner{
-    width: 982px;
     margin: 130px 300px;
     justify-content: center;
 }
@@ -198,7 +184,6 @@ main section:first-of-type{
 /*Todo section*/
 
 .Todo{
-    width: 982px;
     margin: 130px 300px;
     display: flex;
     flex-direction: column;
@@ -225,8 +210,7 @@ main section:first-of-type{
 }
 
 #find-client{
-    width: 982px;
-    margin: 130px 0;
+    margin: 120px 0;
 }
 
 #find-client h1{
@@ -243,6 +227,140 @@ main section:first-of-type{
 
 /*feedback section*/
 
+.feedback{
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.feedback-container{
+    display: flex;
+}
+
+.fcard-left{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30vw;
+    height: 30vw;
+}
+
+.fcard-mid{
+    width: 39vw;
+    height: 30vw;
+}
+
+.fcard-mid div{
+    padding: 40px;
+}
+
+.fcard-mid img{
+    padding: px;
+}
+
+.fcard-mid div p{
+    margin: 50px 0;
+}
+
+.fcard-right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30vw;
+    height: 30vw;
+}
+
+.fcards{
+    width: 15vw;
+    height: 15vw;
+    padding: 60px;
+    display: flex;
+}
+
+.fcards img{
+    width: 100%;
+}
+
+#freeride{
+    width: 100%;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    background-color: #b4d3ff;
+}
+
+#freeride h1{
+    width: 470px;
+    font-weight: 600;
+    margin-top: 115px;
+    color: rgb(151, 30, 70);
+}
+
+#freeride span{
+    margin: 150px 25px;
+    padding: 0 55px;
+    line-height: 2.5rem;
+    background-color: white;
+}
+
+#faq{
+    margin: 120px 300px;
+}
+
+#faq hr{
+    margin: 3rem 0;
+}
+
+#faq p span{
+    margin-left: 270px;
+}
 /*/feedback section*/
 /*/main*/
+
+/*footer*/
+
+footer{
+    height: 500px;
+    background-color: black; 
+}
+
+.footerlinks{
+    margin: 0px 200px;
+    display: flex;
+    justify-content: space-evenly;  
+    color: white;
+    background-color: black; 
+}
+
+.link{
+    margin-top: 80px;
+    width: 200px;
+    height: 200px;
+}
+
+.link a{
+    font-weight: 100;
+    color: white;
+    line-height: 2rem;
+    padding-right: 45px;
+}
+
+.footend{
+    margin-top: 100px;
+}
+
+.footend hr{
+    color: white;
+    margin-left: 220px;
+    margin-bottom: 40px;
+    width: 160px;
+}
+
+.footend span{
+    margin-left: 210px;
+    margin-top: 60px;
+    color: white;
+    word-spacing: 1rem;
+}
+
+.footend i{
+    margin: 0 10px;
+}
+/*/footer*/

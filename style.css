@@ -367,7 +367,7 @@ header img{
 }
 
 .fcards:hover{
-    opacity: 0.4;
+    border: 8px solid #ececec67;
 }
 
 #freeride{

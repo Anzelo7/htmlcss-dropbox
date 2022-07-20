@@ -167,6 +167,7 @@ header img{
 .icon{
     position: absolute;
     width: 20px;
+    /*!!!-list-style-type-!!!*/
 }
 
 .paragraph{
@@ -360,6 +361,7 @@ header img{
     height: 15vw;
     padding: 60px;
     display: flex;
+    transition: border 0.5s linear;
 }
 
 .fcards img{

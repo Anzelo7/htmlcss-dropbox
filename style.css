@@ -24,8 +24,15 @@ header{
     background-color: white;
 }
 
-header a{
-    margin: 15px;
+header a{  
+    height: 43px;
+    margin: -6px 15px -38px;
+    display: inline-block;
+}
+
+header a:hover{
+    display: inline-block;
+    border-bottom: 2px solid black;
 }
 
 header img{
@@ -33,9 +40,14 @@ header img{
 }
 
 #inizia{
-    padding: 5px 10px;
+    padding: 9px 20px;
     color: white;
     background-color: #006bff;
+    border-bottom: #006bff;
+}
+
+#inizia:hover{
+    opacity: 0.4;
 }
 /*/header*/
 
@@ -71,6 +83,10 @@ header img{
     margin-bottom: 10px;
     color: white;
     background-color: #006bff;
+}
+
+.textbox a:hover{
+    opacity: 0.4;
 }
 
 .textbox p{
@@ -167,12 +183,20 @@ header img{
     line-height: 6rem;
 }
 
+.freetest:hover{
+    opacity: 0.4;
+}
+
 #freetest{
     margin: 0 15px;
     padding: 10px 80px;
     color: white;
     background-color: #006bff;
     line-height: 3rem;
+}
+
+#freetest:hover{
+    opacity: 0.4;
 }
 
 .buylink{
@@ -235,9 +259,14 @@ header img{
     font-weight: 600;
 }
 
-.partner span{
+.partner a{
     padding: 3%;
     border: 1px solid black;
+}
+
+.partner a:hover{
+    opacity: 0.4;
+    background-color: lightgrey;
 }
 /*/card-option section*/
 
@@ -337,6 +366,10 @@ header img{
     width: 100%;
 }
 
+.fcards:hover{
+    opacity: 0.4;
+}
+
 #freeride{
     width: 100%;
     height: 340px;
@@ -352,11 +385,15 @@ header img{
     color: rgb(151, 30, 70);
 }
 
-#freeride span{
+#freeride a{
     margin: 150px 25px;
     padding: 0 55px;
     line-height: 2.5rem;
     background-color: white;
+}
+
+#freeride a:hover{
+    opacity: 0.4;
 }
 
 #faq{
